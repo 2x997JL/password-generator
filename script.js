@@ -23,7 +23,7 @@ if (passwordLength < 8 || passwordLength > 128) {
   return generatePassword()
 }
 var wantsUpperCase = confirm("Select OK if you want uppercase characters?")
-var wantsLowerCase = confirm("Select OK you want lowercase characters?")
+var wantsLowerCase = confirm("Select OK if you want lowercase characters?")
 var wantsNumbers  = confirm("Select OK if you want numbers?")
 var wantsSpecialCharacters = confirm("Select OK if you want special characters?")
 if (wantsUpperCase === false && wantsLowerCase === false && wantsNumbers === false && wantsSpecialCharacters === false) {
